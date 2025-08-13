@@ -1,0 +1,1 @@
+# GUI-creating-dialect-with-SDL-librirary.-
