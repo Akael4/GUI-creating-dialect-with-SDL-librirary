@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compila ed Esegui (FLTK)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "main.cpp",
+        "-o", "main.exe",
+        "-std=c++17",
+        "`fltk-config --cxxflags --ldflags`"
+      ],
+      "options": {
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-c"]
+        }
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
